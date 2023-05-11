@@ -41,7 +41,6 @@ printf("%c->%s",ch,t[r][c]);
 if(str[i]==st[top])
 {
 flag=1;
-
 ch=pop();
 i++;
 }
