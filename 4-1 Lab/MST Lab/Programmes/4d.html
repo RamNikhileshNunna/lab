@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+        <body>
+        <script> var c=0; 
+        function fun()
+            { 
+            if(c==0)
+                {
+                    document.body.style.backgroundColor = "cyan";
+                    document.getElementById("id1").innerHTML="Fill your cone";
+                    document.getElementById("imag").src="/home/cse/Downloads/istockphoto-970023652-612x612.jpg";
+                    document.getElementById("link").innerHTML="Fill";
+                    c=1;
+                }   
+            else
+                {
+                    document.body.style.backgroundColor = "pink";
+                    document.getElementById("id1").innerHTML="Eat your cone";
+                    document.getElementById("imag").src="/home/cse/Downloads/istockphoto-970023652-612x612.jpg";
+                    document.getElementById("link").innerHTML="Eat";
+                    c=0;
+                }
+            }
+        </script>
+    <center>
+    <h1 id="id1">Eat your cone</h1>
+    <br><br>
+    <img src="/home/cse/Downloads/istockphoto-970023652-612x612.jpg" alt="Reload"height="300px" width="200px" id="imag">
+    <br>
+    <a href="javascript:fun()" id="link">Eat</a>
+    </center>
+</body>
+</html>
